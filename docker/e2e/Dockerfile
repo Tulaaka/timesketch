@@ -1,5 +1,5 @@
 # Use the official Docker Hub Ubuntu base image
-FROM ubuntu:22.04
+FROM ubuntu:kinetic
 
 ARG PLASO_PPA_TRACK=stable
 
