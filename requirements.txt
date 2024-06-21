@@ -36,3 +36,6 @@ prometheus-flask-exporter==0.18.1
 decorator==5.0.5
 geoip2==4.2.0
 jsonschema~=4.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+mako>=1.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
